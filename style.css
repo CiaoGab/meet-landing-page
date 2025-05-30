@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     font-size: 10px;
+     overflow-x: hidden;
 }
 body {
     font-family: 'red hat display';
