@@ -1,0 +1,204 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+body {
+    font-family: 'red hat display';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.navbar {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 4.8rem;
+}
+.navbar img {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hero {
+    padding: 6.4rem 3.2rem 3.2rem 3.2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero .combined-img {
+    display: flex;
+    flex-direction: row;
+}
+.hero .combined-img .left {
+    overflow: hidden;
+}
+.hero .combined-img .right {
+    overflow: hidden;
+    max-width: 100%;
+}
+.hero-text-content {
+    max-width: 33.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text-content h1 {
+    font-size: 5rem;
+    line-height: 110%;
+    letter-spacing: 0rem;
+    font-weight: 900;
+    color: #28283D;
+}
+.hero-text-content p {
+    color: #87879D;
+    font-size: 1.8rem;
+    line-height: 110%;
+    letter-spacing: 0rem;
+    font-weight: 500;
+    margin-bottom: 2.4rem;
+}
+.download {
+    background-color: #4D96A9;
+    border-radius: 2.9rem;
+    height: 5.6rem;
+    width: 19.3rem;
+    color: white;
+    margin-bottom: 1.6rem;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 150%;
+    letter-spacing: 0rem;
+    font-weight: 500;
+}
+.download span {
+    color: #8fe3f9;
+}
+.what-is-it {
+    height: 5.6rem;
+    width: 16.1rem;
+    color: white;
+    border-radius: 2.9rem;
+    background-color: #855fb1;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 150%;
+    letter-spacing: 0rem;
+    font-weight: 500;
+}
+.main-content-container{
+    padding: 3.2rem 3.2rem 6.4rem 3.2rem;
+    max-width: 81.9rem;
+}
+.number {
+    display: flex;
+    justify-content: center;
+}
+.number button {
+    height: 56px;
+    width: 56px;
+    border-radius: 5rem;
+}
+.number .circle {
+    font-size: 1.6rem;
+    border: 1px solid #D1D1DF;
+    background-color: white;
+}
+.img-collage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1.6rem;
+    margin-bottom: 6.4rem;
+    margin-top: 6.4rem;
+}
+.img-collage img {
+    border-radius: .8rem;
+    max-height: 14.4rem;
+    max-width: fit-content;
+}
+.main-text-content {
+    text-align: center;
+}
+.main-text-content h2 {
+    font-size: 1.6rem;
+    line-height: 110%;
+    letter-spacing: .4rem;
+    color: #4D96A9;
+}
+.main-text-content h3 {
+    color: #28283D;
+    font-size: 4rem;
+    line-height: 110%;
+    font-weight: 900;
+}
+.main-text-content p {
+    font-size: 1.8rem;
+    line-height: 110%;
+    letter-spacing: 0rem;
+}
+
+.number button {
+    height: 56px;
+    width: 56px;
+    border-radius: 5rem;
+    margin-bottom: -2.8rem;
+    z-index: 2;
+}
+.number .circle {
+    font-size: 1.6rem;
+    border: 1px solid #D1D1DF;
+    background-color: white;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+.footer-hero {
+    background: url(/starter-code/assets/mobile/image-footer.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-size: cover;
+    position: relative;
+}
+.footer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #4D96A9;
+    opacity: 90%;
+    z-index: 1; /* Below the text */
+}
+.footer-text-content {
+    padding: 6.4rem 3.2rem 6.4rem 3.2rem;
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+.footer-text-content h3{
+    font-size: 4rem;
+    line-height: 110%;
+    letter-spacing: 0rem;
+    font-weight: 900;
+}
+.footer-text-content p{
+    font-size: 1.8rem;
+    line-height: 110%;
+    letter-spacing: 0rem;
+    font-weight: 500;
+    margin-bottom: 2.4rem;
+}
+.footer-text-content button {
+    background-color: #855fb1;
+}
+.footer-text-content span {
+    color: #d9b8ff;
+}
