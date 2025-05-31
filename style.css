@@ -78,6 +78,10 @@ body {
     line-height: 150%;
     letter-spacing: 0rem;
     font-weight: 500;
+    cursor: pointer;
+}
+.download:hover {
+    background-color: #2b6b7a;
 }
 .download span {
     color: #8fe3f9;
@@ -93,6 +97,11 @@ body {
     line-height: 150%;
     letter-spacing: 0rem;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.what-is-it:hover{
+    background-color: hsla(268, 39%, 44%, 0.959);
 }
 .main-content-container{
     padding: 3.2rem 3.2rem 6.4rem 3.2rem;
@@ -208,6 +217,11 @@ body {
 }
 .footer-text-content button {
     background-color: #855fb1;
+    cursor: pointer;
+}
+
+.footer-text-content button:hover{
+    background-color: hsla(268, 39%, 44%, 0.959);
 }
 .footer-text-content span {
     color: #d9b8ff;
